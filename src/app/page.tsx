@@ -14,7 +14,7 @@ export default function Home() {
           <div className='flex items-center p-1.5 gap-[56rem]'>
             <div className='flex items-center gap-4 font-semibold'>
               <a href="#">
-                <Image className='rounded-full w-11 h-11 ml-2' src="/eu.png" width={500} height={500} alt="Profile" />
+                <Image className='rounded-full w-11 h-11 ml-2 contrast-[.25]' src="/user.png" width={500} height={500} alt="Profile" />
               </a>
               David
             </div>

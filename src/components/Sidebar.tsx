@@ -1,4 +1,4 @@
-import { Search, Users2, Circle, MessageSquare, MoreVertical, ListFilter, ArchiveRestore, Plus, Mic, Laugh} from 'lucide-react'
+import { Search, Users2, Circle, MessageSquare, MoreVertical, ListFilter, ArchiveRestore, Plus, Mic, Laugh, Pin} from 'lucide-react'
 import Image from 'next/image'
 
 export function Sidebar () {
@@ -34,149 +34,215 @@ export function Sidebar () {
               <div className='text-zinc-50 text-lg'>Arquivadas</div>
           </div>
 
-          <div className='bg-[#131B20] w-[482px] h-[727px] grid border-zinc-700 overflow-y-auto'>
+          <div className='bg-[#131B20] w-[482px] h-[727px] grid border-zinc-700 overflow-y-auto overflow-x-hidden'>
               <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t-[1px] border-b border-zinc-600/30 hover:bg-[#1d2a31]'>
-              <Image className='rounded-full w-11 h-11 ml-2' src="/eu.png" width={500} height={500} alt="Users" />
+              <Image className='rounded-full w-11 h-11 ml-2 contrast-[.25]' src="/user.png" width={500} height={500} alt="Users" />
                 <div className=''>
-                    David
+                    Amor
                   <div className='flex items-center text-zinc-200 font-normal'>
-                    E vc conseguiu ir lá ?
-                  </div>
-                  <div className='flex '>
-                      22:40
+                    Mensagem
                   </div>
                 </div>
-              </div>
-              <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t border-b border-zinc-600/30 hover:bg-[#1d2a31]'>
-                <Image className='rounded-full w-11 h-11 ml-2' src="/eu.png" width={500} height={500} alt="Users" />
-                <div className=''>
-                    David
-                  <div className='flex items-center text-zinc-200 font-normal'>
-                    E vc conseguiu ir lá ?
-                  </div>
-                  <div className='flex '>
-                      22:40
-                  </div>
+                <div className='relative top-0 left-[224px] right-0 font-normal text-xs text-zinc-200/60 grid'>
+                      Ontem
+                      <div className='mt-1 ml-3'>
+                        <Pin size={16}/>
+                      </div>
                 </div>
               </div>
-              <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t border-b border-zinc-600/30 hover:bg-[#1d2a31]'>
-                <Image className='rounded-full w-11 h-11 ml-2' src="/eu.png" width={500} height={500} alt="Users" />
+              <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t-[1px] border-b border-zinc-600/30 hover:bg-[#1d2a31]'>
+              <Image className='rounded-full w-11 h-11 ml-2 contrast-[.25]' src="/user.png" width={500} height={500} alt="Users" />
                 <div className=''>
-                    David
+                    Ricardo Trabalho
                   <div className='flex items-center text-zinc-200 font-normal'>
-                    E vc conseguiu ir lá ??
-                  </div>
-                  <div className='flex '>
-                      22:40
+                    Valeu
                   </div>
                 </div>
-              </div>
-              <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t border-b border-zinc-600/30 hover:bg-[#1d2a31]'>
-                <Image className='rounded-full w-11 h-11 ml-2' src="/eu.png" width={500} height={500} alt="Users" />
-                <div className=''>
-                    David
-                  <div className='flex items-center text-zinc-200 font-normal'>
-                    E vc conseguiu ir lá ?
-                  </div>
-                  <div className='flex '>
-                      22:40
-                  </div>
+                <div className='relative top-0 left-[180px] right-0 font-normal text-xs text-zinc-200/60 grid'>
+                      Ontem
+                      <div className='mt-1 ml-3'>
+                        <Pin size={16}/>
+                      </div>
                 </div>
               </div>
-              <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t border-b border-zinc-600/30 hover:bg-[#1d2a31]'>
-                <Image className='rounded-full w-11 h-11 ml-2' src="/eu.png" width={500} height={500} alt="Users" />
+              <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t-[1px] border-b border-zinc-600/30 hover:bg-[#1d2a31]'>
+              <Image className='rounded-full w-11 h-11 ml-2 contrast-[.25]' src="/user.png" width={500} height={500} alt="Users" />
                 <div className=''>
-                    David
+                    Grupo1
                   <div className='flex items-center text-zinc-200 font-normal'>
-                    E vc conseguiu ir lá ?
-                  </div>
-                  <div className='flex '>
-                      22:40
+                    Mensagem
                   </div>
                 </div>
-              </div>
-              <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t border-b border-zinc-600/30 hover:bg-[#1d2a31]'>
-                <Image className='rounded-full w-11 h-11 ml-2' src="/eu.png" width={500} height={500} alt="Users" />
-                <div className=''>
-                    David
-                  <div className='flex items-center text-zinc-200 font-normal'>
-                    E vc conseguiu ir lá ?
-                  </div>
-                  <div className='flex '>
-                      22:40
-                  </div>
+                <div className='relative top-0 left-56 right-0 font-normal text-xs text-zinc-200/60 grid'>
+                      Ontem
+                      <div className='mt-1 ml-3'>
+                        <Pin size={16}/>
+                      </div>
                 </div>
               </div>
-              <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t border-b border-zinc-600/30 hover:bg-[#1d2a31]'>
-                <Image className='rounded-full w-11 h-11 ml-2' src="/eu.png" width={500} height={500} alt="Users" />
+              <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t-[1px] border-b border-zinc-600/30 hover:bg-[#1d2a31]'>
+              <Image className='rounded-full w-11 h-11 ml-2 contrast-[.25]' src="/user.png" width={500} height={500} alt="Users" />
                 <div className=''>
-                    David
+                    Grupo2
                   <div className='flex items-center text-zinc-200 font-normal'>
-                    E vc conseguiu ir lá ?
-                  </div>
-                  <div className='flex '>
-                      22:40
+                    Mensagem
                   </div>
                 </div>
-              </div>
-              <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t border-b border-zinc-600/30 hover:bg-[#1d2a31]'>
-                <Image className='rounded-full w-11 h-11 ml-2' src="/eu.png" width={500} height={500} alt="Users" />
-                <div className=''>
-                    David
-                  <div className='flex items-center text-zinc-200 font-normal'>
-                    E vc conseguiu ir lá ?
-                  </div>
-                  <div className='flex '>
-                      22:40
-                  </div>
+                <div className='relative top-0 left-56 right-0 font-normal text-xs text-zinc-200/60 grid'>
+                      Ontem
+                      <div className='mt-1 ml-3'>
+                        <Pin size={16}/>
+                      </div>
                 </div>
               </div>
-              <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t border-b border-zinc-600/30 hover:bg-[#1d2a31]'>
-                <Image className='rounded-full w-11 h-11 ml-2' src="/eu.png" width={500} height={500} alt="Users" />
+              <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t-[1px] border-b border-zinc-600/30 hover:bg-[#1d2a31]'>
+              <Image className='rounded-full w-11 h-11 ml-2 contrast-[.25]' src="/user.png" width={500} height={500} alt="Users" />
                 <div className=''>
-                    David
+                    Grupo3
                   <div className='flex items-center text-zinc-200 font-normal'>
-                    E vc conseguiu ir lá ?
-                  </div>
-                  <div className='flex '>
-                      22:40
+                    Mensagem
                   </div>
                 </div>
-              </div>
-              <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t border-b border-zinc-600/30 hover:bg-[#1d2a31]'>
-                <Image className='rounded-full w-11 h-11 ml-2' src="/eu.png" width={500} height={500} alt="Users" />
-                <div className=''>
-                    David
-                  <div className='flex items-center text-zinc-200 font-normal'>
-                    E vc conseguiu ir lá ?
-                  </div>
-                  <div className='flex '>
-                      22:40
-                  </div>
+                <div className='relative top-0 left-56 right-0 font-normal text-xs text-zinc-200/60 grid'>
+                      Ontem
+                      <div className='mt-1 ml-3'>
+                        <Pin size={16}/>
+                      </div>
                 </div>
               </div>
-              <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t border-b border-zinc-600/30 hover:bg-[#1d2a31]'>
-                <Image className='rounded-full w-11 h-11 ml-2' src="/eu.png" width={500} height={500} alt="Users" />
+              <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t-[1px] border-b border-zinc-600/30 hover:bg-[#1d2a31]'>
+              <Image className='rounded-full w-11 h-11 ml-2 contrast-[.25]' src="/user.png" width={500} height={500} alt="Users" />
                 <div className=''>
-                    David
+                    Pedro
                   <div className='flex items-center text-zinc-200 font-normal'>
-                    E vc conseguiu ir lá ??
-                  </div>
-                  <div className='flex '>
-                      22:40
+                    Mensagem
                   </div>
                 </div>
+                <div className='relative top-0 left-56 right-0 font-normal text-xs text-zinc-200/60 grid'>
+                      Ontem
+                      <div className='mt-1 ml-3'>
+                        <Pin size={16}/>
+                      </div>
+                </div>
               </div>
-              <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t border-b border-zinc-600/30 hover:bg-[#1d2a31]'>
-                <Image className='rounded-full w-11 h-11 ml-2' src="/eu.png" width={500} height={500} alt="Users" />
+              <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t-[1px] border-b border-zinc-600/30 hover:bg-[#1d2a31]'>
+              <Image className='rounded-full w-11 h-11 ml-2 contrast-[.25]' src="/user.png" width={500} height={500} alt="Users" />
                 <div className=''>
-                    David
+                    Grupo
                   <div className='flex items-center text-zinc-200 font-normal'>
-                    E vc conseguiu ir lá ?
+                    Mensagem
                   </div>
-                  <div className='flex '>
-                      22:40
+                </div>
+                <div className='relative top-0 left-56 right-0 font-normal text-xs text-zinc-200/60 grid'>
+                      Ontem
+                      <div className='mt-1 ml-3'>
+                        <Pin size={16}/>
+                      </div>
+                </div>
+              </div>
+              <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t-[1px] border-b border-zinc-600/30 hover:bg-[#1d2a31]'>
+              <Image className='rounded-full w-11 h-11 ml-2 contrast-[.25]' src="/user.png" width={500} height={500} alt="Users" />
+                <div className=''>
+                    Grupo
+                  <div className='flex items-center text-zinc-200 font-normal'>
+                    Mensagem
                   </div>
+                </div>
+                <div className='relative top-0 left-56 right-0 font-normal text-xs text-zinc-200/60 grid'>
+                      Ontem
+                      <div className='mt-1 ml-3'>
+                        <Pin size={16}/>
+                      </div>
+                </div>
+              </div>
+              <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t-[1px] border-b border-zinc-600/30 hover:bg-[#1d2a31]'>
+              <Image className='rounded-full w-11 h-11 ml-2 contrast-[.25]' src="/user.png" width={500} height={500} alt="Users" />
+                <div className=''>
+                    Grupo
+                  <div className='flex items-center text-zinc-200 font-normal'>
+                    Mensagem
+                  </div>
+                </div>
+                <div className='relative top-0 left-56 right-0 font-normal text-xs text-zinc-200/60 grid'>
+                      Ontem
+                      <div className='mt-1 ml-3'>
+                        <Pin size={16}/>
+                      </div>
+                </div>
+              </div>
+              <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t-[1px] border-b border-zinc-600/30 hover:bg-[#1d2a31]'>
+              <Image className='rounded-full w-11 h-11 ml-2 contrast-[.25]' src="/user.png" width={500} height={500} alt="Users" />
+                <div className=''>
+                    Grupo
+                  <div className='flex items-center text-zinc-200 font-normal'>
+                    Mensagem
+                  </div>
+                </div>
+                <div className='relative top-0 left-56 right-0 font-normal text-xs text-zinc-200/60 grid'>
+                      Ontem
+                      <div className='mt-1 ml-3'>
+                        <Pin size={16}/>
+                      </div>
+                </div>
+              </div>
+              <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t-[1px] border-b border-zinc-600/30 hover:bg-[#1d2a31]'>
+              <Image className='rounded-full w-11 h-11 ml-2 contrast-[.25]' src="/user.png" width={500} height={500} alt="Users" />
+                <div className=''>
+                    Grupo
+                  <div className='flex items-center text-zinc-200 font-normal'>
+                    Mensagem
+                  </div>
+                </div>
+                <div className='relative top-0 left-56 right-0 font-normal text-xs text-zinc-200/60 grid'>
+                      Ontem
+                      <div className='mt-1 ml-3'>
+                        <Pin size={16}/>
+                      </div>
+                </div>
+              </div>
+              <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t-[1px] border-b border-zinc-600/30 hover:bg-[#1d2a31]'>
+              <Image className='rounded-full w-11 h-11 ml-2 contrast-[.25]' src="/user.png" width={500} height={500} alt="Users" />
+                <div className=''>
+                    Grupo
+                  <div className='flex items-center text-zinc-200 font-normal'>
+                    Mensagem
+                  </div>
+                </div>
+                <div className='relative top-0 left-56 right-0 font-normal text-xs text-zinc-200/60 grid'>
+                      Ontem
+                      <div className='mt-1 ml-3'>
+                        <Pin size={16}/>
+                      </div>
+                </div>
+              </div>
+              <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t-[1px] border-b border-zinc-600/30 hover:bg-[#1d2a31]'>
+              <Image className='rounded-full w-11 h-11 ml-2 contrast-[.25]' src="/user.png" width={500} height={500} alt="Users" />
+                <div className=''>
+                    Grupo
+                  <div className='flex items-center text-zinc-200 font-normal'>
+                    Mensagem
+                  </div>
+                </div>
+                <div className='relative top-0 left-56 right-0 font-normal text-xs text-zinc-200/60 grid'>
+                      Ontem
+                      <div className='mt-1 ml-3'>
+                        <Pin size={16}/>
+                      </div>
+                </div>
+              </div>
+              <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t-[1px] border-b border-zinc-600/30 hover:bg-[#1d2a31]'>
+              <Image className='rounded-full w-11 h-11 ml-2 contrast-[.25]' src="/user.png" width={500} height={500} alt="Users" />
+                <div className=''>
+                    Grupo4
+                  <div className='flex items-center text-zinc-200 font-normal'>
+                    Mensagem
+                  </div>
+                </div>
+                <div className='relative top-0 left-56 right-0 font-normal text-xs text-zinc-200/60 grid'>
+                      Ontem
+                      <div className='mt-1 ml-3'>
+                        <Pin size={16}/>
+                      </div>
                 </div>
               </div>
           </div>
