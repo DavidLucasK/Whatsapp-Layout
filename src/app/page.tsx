@@ -1,4 +1,5 @@
 import { Search, Users2, Circle, MessageSquare, MoreVertical, ListFilter, ArchiveRestore, Plus, Mic, Laugh} from 'lucide-react'
+import React from 'react'
 
 export default function Home() {
   return (
