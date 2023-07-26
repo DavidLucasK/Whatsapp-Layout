@@ -7,7 +7,7 @@ export function Sidebar () {
           <div className='bg-[#222C32] w-[482px] h-[59px]'>
             <div className='flex items-center p-1.5 gap-[15.5rem]'>
                 <a href="#">
-                    <Image className='rounded-full w-11 h-11 ml-2' src="/eu.png" width={500} height={500} alt="Profile" />
+                    <Image className='rounded-full w-11 h-11 ml-2 contrast-[.25]' src="/user.png" width={500} height={500} alt="Profile" />
                 </a>
               <div className='flex items-center gap-6 text-zinc-200/60'>
                 <Users2 size={20}/>
