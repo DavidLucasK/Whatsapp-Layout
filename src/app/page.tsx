@@ -1,5 +1,6 @@
 import { Search, Users2, Circle, MessageSquare, MoreVertical, ListFilter, ArchiveRestore, Plus, Mic, Laugh} from 'lucide-react'
 import React from 'react'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
         <aside>
           <div className='bg-[#222C32] w-[482px] h-[59px]'>
             <div className='flex items-center p-1.5 gap-[15.5rem]'>
-              <img className='rounded-full w-11 h-11 ml-2' src="eu.png" alt="Profile" />
+              <Image className='rounded-full w-11 h-11 ml-2' src="/eu.png" width={500} height={500} alt="Profile" />
               <div className='flex items-center gap-6 text-zinc-200/60'>
                 <Users2 size={20}/>
                 <Circle size={20}/>
@@ -36,7 +37,7 @@ export default function Home() {
 
           <div className='bg-[#131B20] w-[482px] h-[727px] grid border-zinc-700 overflow-y-auto'>
               <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t border-b border-zinc-600/30'>
-                <img className='rounded-full w-11 h-11 ml-2' src="eu.png" alt="Users" />
+              <Image className='rounded-full w-11 h-11 ml-2' src="/eu.png" width={500} height={500} alt="Users" />
                 <div className=''>
                     David
                   <div className='flex items-center text-zinc-200 font-normal'>
@@ -48,7 +49,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t border-b border-zinc-600/30'>
-                <img className='rounded-full w-11 h-11 ml-2' src="eu.png" alt="Users" />
+                <Image className='rounded-full w-11 h-11 ml-2' src="/eu.png" width={500} height={500} alt="Users" />
                 <div className=''>
                     David
                   <div className='flex items-center text-zinc-200 font-normal'>
@@ -60,7 +61,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t border-b border-zinc-600/30'>
-                <img className='rounded-full w-11 h-11 ml-2' src="eu.png" alt="Users" />
+                <Image className='rounded-full w-11 h-11 ml-2' src="/eu.png" width={500} height={500} alt="Users" />
                 <div className=''>
                     David
                   <div className='flex items-center text-zinc-200 font-normal'>
@@ -72,7 +73,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t border-b border-zinc-600/30'>
-                <img className='rounded-full w-11 h-11 ml-2' src="eu.png" alt="Users" />
+                <Image className='rounded-full w-11 h-11 ml-2' src="/eu.png" width={500} height={500} alt="Users" />
                 <div className=''>
                     David
                   <div className='flex items-center text-zinc-200 font-normal'>
@@ -84,7 +85,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t border-b border-zinc-600/30'>
-                <img className='rounded-full w-11 h-11 ml-2' src="eu.png" alt="Users" />
+                <Image className='rounded-full w-11 h-11 ml-2' src="/eu.png" width={500} height={500} alt="Users" />
                 <div className=''>
                     David
                   <div className='flex items-center text-zinc-200 font-normal'>
@@ -96,7 +97,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t border-b border-zinc-600/30'>
-                <img className='rounded-full w-11 h-11 ml-2' src="eu.png" alt="Users" />
+                <Image className='rounded-full w-11 h-11 ml-2' src="/eu.png" width={500} height={500} alt="Users" />
                 <div className=''>
                     David
                   <div className='flex items-center text-zinc-200 font-normal'>
@@ -108,7 +109,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t border-b border-zinc-600/30'>
-                <img className='rounded-full w-11 h-11 ml-2' src="eu.png" alt="Users" />
+                <Image className='rounded-full w-11 h-11 ml-2' src="/eu.png" width={500} height={500} alt="Users" />
                 <div className=''>
                     David
                   <div className='flex items-center text-zinc-200 font-normal'>
@@ -120,7 +121,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t border-b border-zinc-600/30'>
-                <img className='rounded-full w-11 h-11 ml-2' src="eu.png" alt="Users" />
+                <Image className='rounded-full w-11 h-11 ml-2' src="/eu.png" width={500} height={500} alt="Users" />
                 <div className=''>
                     David
                   <div className='flex items-center text-zinc-200 font-normal'>
@@ -132,7 +133,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t border-b border-zinc-600/30'>
-                <img className='rounded-full w-11 h-11 ml-2' src="eu.png" alt="Users" />
+                <Image className='rounded-full w-11 h-11 ml-2' src="/eu.png" width={500} height={500} alt="Users" />
                 <div className=''>
                     David
                   <div className='flex items-center text-zinc-200 font-normal'>
@@ -144,7 +145,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t border-b border-zinc-600/30'>
-                <img className='rounded-full w-11 h-11 ml-2' src="eu.png" alt="Users" />
+                <Image className='rounded-full w-11 h-11 ml-2' src="/eu.png" width={500} height={500} alt="Users" />
                 <div className=''>
                     David
                   <div className='flex items-center text-zinc-200 font-normal'>
@@ -156,7 +157,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t border-b border-zinc-600/30'>
-                <img className='rounded-full w-11 h-11 ml-2' src="eu.png" alt="Users" />
+                <Image className='rounded-full w-11 h-11 ml-2' src="/eu.png" width={500} height={500} alt="Users" />
                 <div className=''>
                     David
                   <div className='flex items-center text-zinc-200 font-normal'>
@@ -168,7 +169,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='bg-[#131B20] h-[74px] flex items-center gap-6 text-zinc-100 font-semibold border-t border-b border-zinc-600/30'>
-                <img className='rounded-full w-11 h-11 ml-2' src="eu.png" alt="Users" />
+                <Image className='rounded-full w-11 h-11 ml-2' src="/eu.png" width={500} height={500} alt="Users" />
                 <div className=''>
                     David
                   <div className='flex items-center text-zinc-200 font-normal'>
@@ -187,7 +188,7 @@ export default function Home() {
           <div className='bg-[#222C32] w-[1118px] h-[59px]'>
           <div className='flex items-center p-1.5 gap-[56rem]'>
             <div className='flex items-center gap-4 font-semibold'>
-              <img className='rounded-full w-11 h-11 ml-2' src="eu.png" alt="Profile" />
+              <Image className='rounded-full w-11 h-11 ml-2' src="/eu.png" width={500} height={500} alt="Profile" />
               David
             </div>
               <div className='flex items-center gap-8 text-zinc-200/60'>
