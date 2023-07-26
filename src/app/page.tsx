@@ -64,7 +64,7 @@ export default function Home() {
                 <div className=''>
                     David
                   <div className='flex items-center text-zinc-200 font-normal'>
-                    E vc conseguiu ir lá ?
+                    E vc conseguiu ir lá ??
                   </div>
                   <div className='flex '>
                       22:40
