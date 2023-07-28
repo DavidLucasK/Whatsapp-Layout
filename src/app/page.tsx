@@ -5,7 +5,7 @@ import { Sidebar } from '@/components/Sidebar'
 
 export default function Home() {
   return (
-    <div className='ml-[180px] mt-[20px]'>
+    <div className='ml-[160px] mt-[20px]'>
       <div className="flex">
         <Sidebar />
         <div className='border-l border-zinc-100/20 h-[888px]'></div>
