@@ -16,6 +16,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      {/* add this */}
+      <head>
+        <link rel='icon' href='./favicon4.ico'/>
+      </head>
+
       <body className='bg-[#161e24] text-zinc-50 '>{children}</body>
     </html>
   )

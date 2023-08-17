@@ -5,10 +5,10 @@ import { Sidebar } from '@/components/Sidebar'
 
 export default function Home() {
   return (
-    <div className='ml-[160px] mt-[20px]'>
+    <div className='flex items-center justify-center py-4'>
       <div className="flex">
         <Sidebar />
-        <div className='border-l border-zinc-100/20 h-[888px]'></div>
+        <div className='border-l border-zinc-100/20 h-[894px]'></div>
         <main>
           <div className='bg-[#222C32] w-[1118px] h-[59px]'>
           <div className='flex items-center p-1.5 gap-[56rem]'>
