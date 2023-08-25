@@ -49,7 +49,7 @@ export function Sidebar () {
                 <div className='flex items-center select-none gap-6'>
                   <Image className='rounded-full w-11 h-11 contrast-[.25]' src="/user.png" width={500} height={500} alt="Users" />
                   <div className='gap- text-zinc-200 font-normal'>
-                    <div className='font-semibold'>Amor</div>
+                    <div className='font-semibold'>User</div>
                     <div>Mensagem</div>
                   </div>
                 </div>
@@ -66,7 +66,7 @@ export function Sidebar () {
                 <div className='flex items-center select-none gap-6'>
                   <Image className='rounded-full w-11 h-11 contrast-[.25]' src="/user.png" width={500} height={500} alt="Users" />
                   <div className='gap- text-zinc-200 font-normal'>
-                    <div className='font-semibold'>Amor</div>
+                    <div className='font-semibold'>User</div>
                     <div>Mensagem</div>
                   </div>
                 </div>
@@ -83,7 +83,7 @@ export function Sidebar () {
                 <div className='flex items-center select-none gap-6'>
                   <Image className='rounded-full w-11 h-11 contrast-[.25]' src="/user.png" width={500} height={500} alt="Users" />
                   <div className='gap- text-zinc-200 font-normal'>
-                    <div className='font-semibold'>Amor</div>
+                    <div className='font-semibold'>User</div>
                     <div>Mensagem</div>
                   </div>
                 </div>
@@ -100,7 +100,7 @@ export function Sidebar () {
                 <div className='flex items-center select-none gap-6'>
                   <Image className='rounded-full w-11 h-11 contrast-[.25]' src="/user.png" width={500} height={500} alt="Users" />
                   <div className='gap- text-zinc-200 font-normal'>
-                    <div className='font-semibold'>Amor</div>
+                    <div className='font-semibold'>User</div>
                     <div>Mensagem</div>
                   </div>
                 </div>
@@ -117,7 +117,7 @@ export function Sidebar () {
                 <div className='flex items-center select-none gap-6'>
                   <Image className='rounded-full w-11 h-11 contrast-[.25]' src="/user.png" width={500} height={500} alt="Users" />
                   <div className='gap- text-zinc-200 font-normal'>
-                    <div className='font-semibold'>Amor</div>
+                    <div className='font-semibold'>User</div>
                     <div>Mensagem</div>
                   </div>
                 </div>
@@ -134,7 +134,7 @@ export function Sidebar () {
                 <div className='flex items-center select-none gap-6'>
                   <Image className='rounded-full w-11 h-11 contrast-[.25]' src="/user.png" width={500} height={500} alt="Users" />
                   <div className='gap- text-zinc-200 font-normal'>
-                    <div className='font-semibold'>Amor</div>
+                    <div className='font-semibold'>User</div>
                     <div>Mensagem</div>
                   </div>
                 </div>
@@ -151,7 +151,7 @@ export function Sidebar () {
                 <div className='flex items-center select-none gap-6'>
                   <Image className='rounded-full w-11 h-11 contrast-[.25]' src="/user.png" width={500} height={500} alt="Users" />
                   <div className='gap- text-zinc-200 font-normal'>
-                    <div className='font-semibold'>Amor</div>
+                    <div className='font-semibold'>User</div>
                     <div>Mensagem</div>
                   </div>
                 </div>
@@ -168,7 +168,7 @@ export function Sidebar () {
                 <div className='flex items-center select-none gap-6'>
                   <Image className='rounded-full w-11 h-11 contrast-[.25]' src="/user.png" width={500} height={500} alt="Users" />
                   <div className='gap- text-zinc-200 font-normal'>
-                    <div className='font-semibold'>Amor</div>
+                    <div className='font-semibold'>User</div>
                     <div>Mensagem</div>
                   </div>
                 </div>
@@ -185,7 +185,7 @@ export function Sidebar () {
                 <div className='flex items-center select-none gap-6'>
                   <Image className='rounded-full w-11 h-11 contrast-[.25]' src="/user.png" width={500} height={500} alt="Users" />
                   <div className='gap- text-zinc-200 font-normal'>
-                    <div className='font-semibold'>Amor</div>
+                    <div className='font-semibold'>User</div>
                     <div>Mensagem</div>
                   </div>
                 </div>
@@ -202,7 +202,7 @@ export function Sidebar () {
                 <div className='flex items-center select-none gap-6'>
                   <Image className='rounded-full w-11 h-11 contrast-[.25]' src="/user.png" width={500} height={500} alt="Users" />
                   <div className='gap- text-zinc-200 font-normal'>
-                    <div className='font-semibold'>Amor</div>
+                    <div className='font-semibold'>User</div>
                     <div>Mensagem</div>
                   </div>
                 </div>
@@ -219,7 +219,7 @@ export function Sidebar () {
                 <div className='flex items-center select-none gap-6'>
                   <Image className='rounded-full w-11 h-11 contrast-[.25]' src="/user.png" width={500} height={500} alt="Users" />
                   <div className='gap- text-zinc-200 font-normal'>
-                    <div className='font-semibold'>Amor</div>
+                    <div className='font-semibold'>User</div>
                     <div>Mensagem</div>
                   </div>
                 </div>
@@ -236,7 +236,7 @@ export function Sidebar () {
                 <div className='flex items-center select-none gap-6'>
                   <Image className='rounded-full w-11 h-11 contrast-[.25]' src="/user.png" width={500} height={500} alt="Users" />
                   <div className='gap- text-zinc-200 font-normal'>
-                    <div className='font-semibold'>Amor</div>
+                    <div className='font-semibold'>User</div>
                     <div>Mensagem</div>
                   </div>
                 </div>
@@ -253,7 +253,7 @@ export function Sidebar () {
                 <div className='flex items-center select-none gap-6'>
                   <Image className='rounded-full w-11 h-11 contrast-[.25]' src="/user.png" width={500} height={500} alt="Users" />
                   <div className='gap- text-zinc-200 font-normal'>
-                    <div className='font-semibold'>Amor</div>
+                    <div className='font-semibold'>User</div>
                     <div>Mensagem</div>
                   </div>
                 </div>
@@ -270,7 +270,7 @@ export function Sidebar () {
                 <div className='flex items-center select-none gap-6'>
                   <Image className='rounded-full w-11 h-11 contrast-[.25]' src="/user.png" width={500} height={500} alt="Users" />
                   <div className='gap- text-zinc-200 font-normal'>
-                    <div className='font-semibold'>Amor</div>
+                    <div className='font-semibold'>User</div>
                     <div>Mensagem</div>
                   </div>
                 </div>
@@ -287,7 +287,7 @@ export function Sidebar () {
                 <div className='flex items-center select-none gap-6'>
                   <Image className='rounded-full w-11 h-11 contrast-[.25]' src="/user.png" width={500} height={500} alt="Users" />
                   <div className='gap- text-zinc-200 font-normal'>
-                    <div className='font-semibold'>Amor</div>
+                    <div className='font-semibold'>User</div>
                     <div>Mensagem</div>
                   </div>
                 </div>
